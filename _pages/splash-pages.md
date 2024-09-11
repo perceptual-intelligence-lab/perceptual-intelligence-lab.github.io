@@ -1,13 +1,12 @@
 ---
-title: "Splash Page"
+title: "Perceptual Intelligence Lab"
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000000"
-  overlay_image: /images/full-size-image.png
-  overlay_filter: rgba(0, 0, 0, 0.5)
-  caption: "<h1>Perceptual Intelligence Lab</h1><p>Exploring Perception and Intelligence at the Intersection of Humans and Machines</p>"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/hero-image.png
   actions:
     - label: "Join Us"
       url: "/joining-us/"
@@ -15,9 +14,9 @@ header:
     - label: "Learn More"
       url: "/research/"
       class: "btn--secondary"
-  intro: 
-  - excerpt: >
-  Welcome to the Perceptual Intelligence Lab, where we explore the boundaries of human and machine perception.
+excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+intro: 
+  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
