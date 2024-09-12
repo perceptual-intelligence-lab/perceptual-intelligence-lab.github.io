@@ -1,30 +1,44 @@
 ---
-title: "News"
-layout: splash
+layout: default
+title: News
 permalink: /news/
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/news.jpg
-  caption: "Stay up to date with the latest news from our lab."
-excerpt: "Recent updates, publications, and announcements from the Perceptual Intelligence Lab."
 ---
 
-{% assign posts = site.categories.news limit:3 %}
-{% assign feature_row = "" %}
+<!-- Featured News Section -->
+<section class="featured-posts">
+    <div class="section-title">
+        <h2><span>Featured News</span></h2>
+    </div>
+    <div class="row">
 
-{% for post in posts %}
-  {% assign feature_row = feature_row | append: "- image_path: " | append: post.image | append: " \n" %}
-  {% assign feature_row = feature_row | append: "  title: " | append: post.title | append: " \n" %}
-  {% assign feature_row = feature_row | append: "  excerpt: " | append: post.excerpt | append: " \n" %}
-  {% assign feature_row = feature_row | append: "  url: " | append: post.url | append: " \n" %}
-  {% if forloop.index < posts.size %}
-    {% assign feature_row = feature_row | append: "\n" %}
-  {% endif %}
-{% endfor %}
+    {% for post in site.posts %}
+        {% if post.featured == true and post.categories contains 'news' %}
+            {% include featuredbox.html %}
+        {% endif %}
+    {% endfor %}
 
-{% capture feature_row_content %}
-{{ feature_row }}
-{% endcapture %}
+    </div>
+</section>
 
-{% include feature_row %}
+<!-- All News Section -->
+<section class="recent-posts">
+    <div class="section-title">
+        <h2><span>All News</span></h2>
+    </div>
+
+    <div class="row listrecent">
+        {% for post in paginator.posts %}
+            {% if post.categories contains 'news' %}
+                {% include postbox.html %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Pagination for News -->
+<div class="bottompagination">
+    <div class="pointerup"><i class="fa fa-caret-up"></i></div>
+    <span class="navigation" role="navigation">
+        {% include pagination.html %}
+    </span>
+</div>
