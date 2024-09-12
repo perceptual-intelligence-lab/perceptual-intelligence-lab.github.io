@@ -165,6 +165,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _pages/people
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -254,6 +255,10 @@ pagination:
   trail:
     before: 2
     after: 2
+  collection:
+    people:
+      output: true
+      permalink: /people/:title/
 
 
 # Plugins (previously gems:)
