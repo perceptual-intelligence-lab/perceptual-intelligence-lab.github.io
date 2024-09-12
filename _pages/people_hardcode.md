@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Meet the Team"
-permalink: /people/
+permalink: /people/hardcode
 ---
 
 # Meet the Team
