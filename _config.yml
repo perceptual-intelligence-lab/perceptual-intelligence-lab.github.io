@@ -331,3 +331,5 @@ defaults:
       comments: # true
       share: true
       related: true
+
+verbose: true
