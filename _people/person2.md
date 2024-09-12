@@ -1,5 +1,5 @@
 ---
 name: "Jun Seo Hwang"
-image: "/assets/images/person2.jpg"
+image: "/assets/images/person1.jpg"
 role: "research assistants"
 ---
