@@ -8,22 +8,11 @@ permalink: /people/
 
 Our team of researchers and scientists are dedicated to advancing the field of perceptual intelligence.
 
-## Director
+## Directors
 <div class="team-section">
-{% for person in site.people %}
+{% assign people = site.pages | where: "dir", "/pages/people" %}
+{% for person in people %}
     {% if person.role == "director" %}
-    <div class="team-member">
-        <img src="{{ person.image }}" alt="{{ person.name }}" class="team-image"/>
-        <h3>{{ person.name }}</h3>
-    </div>
-    {% endif %}
-{% endfor %}
-</div>
-
-## Junior PI
-<div class="team-section">
-{% for person in site.people %}
-    {% if person.role == "junior pi" %}
     <div class="team-member">
         <img src="{{ person.image }}" alt="{{ person.name }}" class="team-image"/>
         <h3>{{ person.name }}</h3>
@@ -34,20 +23,9 @@ Our team of researchers and scientists are dedicated to advancing the field of p
 
 ## Students
 <div class="team-section">
-{% for person in site.people %}
+{% assign people = site.pages | where: "dir", "/pages/people" %}
+{% for person in people %}
     {% if person.role == "student" %}
-    <div class="team-member">
-        <img src="{{ person.image }}" alt="{{ person.name }}" class="team-image"/>
-        <h3>{{ person.name }}</h3>
-    </div>
-    {% endif %}
-{% endfor %}
-</div>
-
-## Research Assistants
-<div class="team-section">
-{% for person in site.people %}
-    {% if person.role == "research assistant" %}
     <div class="team-member">
         <img src="{{ person.image }}" alt="{{ person.name }}" class="team-image"/>
         <h3>{{ person.name }}</h3>
