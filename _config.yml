@@ -255,6 +255,20 @@ pagination:
     before: 2
     after: 2
 
+collections:
+  news:
+    output: true
+    permalink: /news/:title/
+    sort_by: 'date'
+    sort_order: 'descending'
+    layout: single # Default layout for each news article
+  people:
+    output: true
+    permalink: /people/:title/
+    sort_by: 'name'
+    sort_order: 'ascending'
+    layout: team-member # Default layout for people profiles
+
 
 # Plugins (previously gems:)
 plugins:
