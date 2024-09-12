@@ -165,7 +165,7 @@ footer:
 include:
   - .htaccess
   - _pages
-  - _pages/people
+  - _pages/team
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -233,9 +233,9 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Collection Settings
 collections:
-  people:
+  team:
     output: true
-    permalink: /people/:title/
+    permalink: /team/:title/
     
 
 # Pagination with jekyll-paginate
