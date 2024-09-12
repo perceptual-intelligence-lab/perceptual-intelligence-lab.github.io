@@ -160,8 +160,8 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 include:
+  - .htaccess
   - _pages
-  - _includes
   - assets
   - _posts
   - _pages/team
