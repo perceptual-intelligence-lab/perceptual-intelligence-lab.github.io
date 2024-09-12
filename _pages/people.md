@@ -21,11 +21,37 @@ Our team of researchers and scientists are dedicated to advancing the field of p
 {% endfor %}
 </div>
 
+## Junior PIs
+<div class="team-section">
+{% assign people = site.pages | where: "dir", "/pages/people" %}
+{% for person in people %}
+    {% if person.role == "junior-pi" %}
+    <div class="team-member">
+        <img src="{{ person.image }}" alt="{{ person.name }}" class="team-image"/>
+        <h3>{{ person.name }}</h3>
+    </div>
+    {% endif %}
+{% endfor %}
+</div>
+
 ## Students
 <div class="team-section">
 {% assign people = site.pages | where: "dir", "/pages/people" %}
 {% for person in people %}
     {% if person.role == "student" %}
+    <div class="team-member">
+        <img src="{{ person.image }}" alt="{{ person.name }}" class="team-image"/>
+        <h3>{{ person.name }}</h3>
+    </div>
+    {% endif %}
+{% endfor %}
+</div>
+
+## Research Assistants
+<div class="team-section">
+{% assign people = site.pages | where: "dir", "/pages/people" %}
+{% for person in people %}
+    {% if person.role == "research-assistant" %}
     <div class="team-member">
         <img src="{{ person.image }}" alt="{{ person.name }}" class="team-image"/>
         <h3>{{ person.name }}</h3>
