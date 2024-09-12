@@ -3,6 +3,7 @@ layout: post
 title: "Hakwan Lau Appointed as Co-Director of IBS Neuroscience Imaging Research Group"
 categories: news
 image: /assets/images/hakwan-lau-appointment.jpg
+permalink: /news/hakwan-lau-appointed/
 excerpt: "World-renowned neuroscientist Hakwan Lau has been appointed as Co-Director of the IBS Neuroscience Imaging Research Group, leading groundbreaking research on the neural mechanisms of consciousness."
 ---
 
