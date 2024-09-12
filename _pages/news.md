@@ -14,36 +14,21 @@ header:
 excerpt: "Recent updates, publications, and announcements from the Perceptual Intelligence Lab."
 intro:
   - excerpt: 'Find all the latest updates and announcements here.'
-feature_row2:
-  - image_path: /assets/images/news-image-1.jpg
-    alt: "News Image 1"
-    title: "New Publication on Perception"
-    excerpt: "We recently published a groundbreaking study on how the brain processes visual information..."
-    url: "/news/publication-perception"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/images/news-image-2.jpg
-    alt: "News Image 2"
-    title: "Join Our Open Day Event"
-    excerpt: "Come visit our lab and see the work we're doing in perceptual intelligence..."
-    url: "/news/open-day-event"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/news-image-3.jpg
-    alt: "News Image 3"
-    title: "Conference Presentation at Neuroscience 2024"
-    excerpt: "Our lab will be presenting at the upcoming neuroscience conference..."
-    url: "/news/conference-neuroscience-2024"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 <div class="news-grid">
-  {% include feature_row id="feature_row2" type="left" %}
-  {% include feature_row id="feature_row3" type="right" %}
-  {% include feature_row id="feature_row4" type="left" %}
+  {% for post in site.categories.news limit:3 %}
+  <div class="news-item">
+    <a href="{{ post.url }}">
+      <div class="news-thumb" style="background-image: url('{{ post.image }}');"></div>
+      <div class="news-content">
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt }}</p>
+        <a href="{{ post.url }}" class="btn btn--primary">Read More</a>
+      </div>
+    </a>
+  </div>
+  {% endfor %}
 </div>
