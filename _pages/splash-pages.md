@@ -1,5 +1,5 @@
 ---
-title: "Perceptual Intelligence Lab"
+title: "Perceptual Intelligence Laboratories"
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
