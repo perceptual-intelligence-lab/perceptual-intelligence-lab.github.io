@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Hakwan Lau Appointed as Co-Director of IBS Neuroscience Imaging Research Group"
+categories: news
+image: /assets/images/hakwan-lau-appointment.jpg
+excerpt: "World-renowned neuroscientist Hakwan Lau has been appointed as Co-Director of the IBS Neuroscience Imaging Research Group, leading groundbreaking research on the neural mechanisms of consciousness."
+---
+
+Renowned neuroscientist **Hakwan Lau**, a team leader at **RIKEN**, has been appointed as **Co-Director** of the **IBS Neuroscience Imaging Research Group** alongside **Director Sung-ki Kim**. Professor Lau officially assumed this new role on **September 1, 2024**.
+
+With a Ph.D. from **Oxford University** and previous academic positions at **Columbia University** and **UCLA**, Professor Lau currently leads the RIKEN Brain Science Center's team in Japan. He is widely recognized for his interdisciplinary research combining **philosophy and cognitive science**.
+
+A highly influential scholar in the field of neuroscience, Lau's research has been cited over 17,000 times, and he holds an **h-index** of 64, a key indicator of his impact in the scientific community. His latest academic book, *In Consciousness We Trust*, published in 2022, presents a novel theory of **conscious perception** based on collaboration between experimental and theoretical scientists.
+
+Lau’s research explores critical questions, such as whether **machines like AI can achieve consciousness**, and the development of computational methods to assess **metacognitive abilities**. His work has earned him prestigious awards such as the **William James Award** (2005) and the **Janet Taylor Spence Award** (2012).
+
+At IBS, Lau’s research will focus on understanding the fundamental reasons why humans experience the world differently from other animals, particularly in relation to the **prefrontal cortex**—a part of the brain that is more developed in humans and crucial for perception. His goal is to combine non-invasive methods applicable to humans with advanced techniques used in **rodent models** to uncover the unique role of the prefrontal cortex in human cognition.
+
+> "The IBS Neuroscience Imaging Research Group offers world-leading neuroimaging techniques, and with Director Kim's expertise in **MRI physics**, it was an easy decision to join this esteemed group. We have all the tools needed to tackle the **big questions** in basic neuroscience," said Lau.
+
+The Perceptual Intelligence Lab is excited to collaborate with Professor Lau on future projects aimed at unraveling the neural basis of human consciousness.
+
+For more details, [read the full article](https://eng.skku.edu/skku/campus/skk_comm/news01.do?mode=view&articleNo=120412&article.offset=0&articleLimit=10).
